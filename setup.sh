@@ -20,6 +20,8 @@ read -r Distobution
     sudo pacman -S nodejs
     sudo pacman -S python3
     sudo pacman -S figlet
+    sudo npm install electron - g
+    npm install electron --save-dev
     }
     function Debian()
     {
@@ -27,12 +29,16 @@ read -r Distobution
     sudo apt-get install nodejs
     sudo apt-get install figlet
     sudo apt-get install python3
+    sudo npm install electron - g
+    npm install electron --save-dev
     }
     function Fedora ()
     {
     sudo dnf install python3
     sudo dnf install nodejs
     sudo dnf install figlet
+    sudo npm install electron - g
+    npm install electron --save-dev
     }
     if [[ "$Distobution" == 1 ]]; then
       Debian
