@@ -30,9 +30,27 @@ function createWindow () {
 
 	if station[0] == ";":
 
+		extention = station.split(".")[-1]
+
 		station = station[1 : -1]
 
-		station = f"https://{station}"
+		station = station.split(".")[0 : -1]
+
+		stat = []
+
+		n = 0
+
+		for items in station:
+
+			stat.append(station[n])
+
+			stat.append(".")
+
+			n = n + 1
+
+		stat = ''.join([str(item) for item in stat])
+
+		station = f"https://{stat}{extention}"
 
 	elif station[0] == ",":
 
