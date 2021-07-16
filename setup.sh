@@ -48,3 +48,6 @@ read -r Distobution
     elif [[ "$Distobution" == 3 ]]; then
       Fedora
     fi
+    
+    
+    echo "now run python3 navigator.py"
