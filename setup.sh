@@ -22,6 +22,7 @@ read -r Distobution
     sudo pacman -S figlet
     sudo npm install electron - g
     npm install electron --save-dev
+    sudo pacman -S electron
     }
     function Debian()
     {
