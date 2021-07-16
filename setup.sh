@@ -36,9 +36,9 @@ read -r Distobution
     }
     if [[ "$Distobution" == 1 ]]; then
       Debian
+      
     elif [[ "$Distobution" == 2 ]]; then
       Arch
     elif [[ "$Distobution" == 3 ]]; then
       Fedora
-    
-    
+    fi
