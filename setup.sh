@@ -6,7 +6,7 @@ sudo dnf install install python3 npm
 clear
 sudo pacman -S install python3 npm
 clear
-npm install electron -g
+sudo npm install electron -g
 clear
 echo "configuring files"
 mkdir ~/.local/share/NacreousDawn596
