@@ -25,7 +25,12 @@ def security(ty):
 				print("okay")
 				sys.exit()
 	except IndexError:
-		pass
+		humm = input(f'is this domain trusted? "{ty.replace("https://", "").replace("http://", "").split("/")[0]}" y/n\n->')
+		if "y" in humm.lower():
+			pass
+		else:
+			print("okay")
+			sys.exit()
 station = sys.argv[1]
 makesure(station)
 first = '''const electron = require('electron');
