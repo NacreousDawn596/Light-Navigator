@@ -1,4 +1,4 @@
-# Light-Navigator
+# Light-Browser
 this is a simple but securised browser coded by NacreousDawn596 for low-end laptops made by python and javascript
 
 # HOW TO DOWNLOAD IT:
