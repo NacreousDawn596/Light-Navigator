@@ -1,5 +1,5 @@
 # Light-Navigator
-this is a simple navigator coded by NacreousDawn596 for low-end laptops made by python and javascript
+this is a simple but securised browser coded by NacreousDawn596 for low-end laptops made by python and javascript
 
 # HOW TO DOWNLOAD IT:
 ```sh
