@@ -12,5 +12,5 @@ chmod +x setup.sh
 
 # HOW TO USE IT:
 
-now you can launch it by writing 'nav https://google.com'(you can change the link).
+now you can launch it by writing ' nav https://google.com '(you can change the link).
 enjoy!
