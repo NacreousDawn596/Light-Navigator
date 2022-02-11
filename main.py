@@ -31,7 +31,12 @@ def security(ty):
 		else:
 			print("okay")
 			sys.exit()
-station = sys.argv[1]
+
+try:
+	station = sys.argv[1]
+except:
+	station = "https://duckduckgo.com/"
+	
 makesure(station)
 first = '''const electron = require('electron');
 const app = electron.app;
