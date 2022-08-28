@@ -1,22 +1,15 @@
 echo "downloading files"
 sleep 1
-sudo apt-get install python3 npm python3-pip python3-bs4
+sudo apt-get install python3 npm nodejs python3-pip 
 clear
-sudo dnf install install python3 npm python3-pip python3-bs4
+sudo dnf install python3 nodejs npm python3-pip 
 clear
-sudo pacman -S install python3 npm python3-pip python3-bs4
+sudo pacman -S install python3 nodejs npm python3-pip
 clear
-pip install requests bs4
+pip install requests
 clear
 sudo npm install electron -g
 clear
-echo "configuring files"
-mkdir ~/.local/share/NacreousDawn596
-cd ..
-mv ./lowser ~/.local/share/NacreousDawn596
-rm ~/.local/share/NacreousDawn596/lowser/setup.sh
-echo 'source ~/.local/share/NacreousDawn596/lowser/.lowser.sh' >> ~/.bashrc
-clear
 echo "done!"
-echo "now you can launch it by writing 'nav https://google.com'(you can change the link)"
+echo "now you can launch it by writing 'python3 main.py <link>"
 echo "enjoy!"
