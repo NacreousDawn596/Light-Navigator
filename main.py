@@ -23,7 +23,7 @@ let mainWindow;
 
 function createWindow () {
 
-  mainWindow = new BrowserWindow({width: 1800, height: 1200});
+  mainWindow = new BrowserWindow({width: 1800, height: 1200, autoHideMenuBar: true});
 
   mainWindow.loadURL(`'''
 
