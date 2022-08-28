@@ -8,7 +8,7 @@ sudo pacman -S install python3 nodejs npm python3-pip
 clear
 pip install requests
 clear
-sudo npm install electron -g
+sudo npm install -g electron --unsafe-perm=true
 clear
 echo "done!"
 echo "now you can launch it by writing 'python3 main.py <link>"
